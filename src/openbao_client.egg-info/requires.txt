@@ -1,0 +1,5 @@
+requests<3,>=2.32
+
+[dev]
+pytest<9,>=8
+responses<1,>=0.25

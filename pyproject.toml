@@ -1,0 +1,21 @@
+[project]
+name = "openbao-client"
+version = "0.1.0"
+description = "Small Python client for OpenBao KV secrets"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.32,<3"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8,<9",
+    "responses>=0.25,<1"
+]
+
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

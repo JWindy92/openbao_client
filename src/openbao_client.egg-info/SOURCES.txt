@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/openbao_client/__init__.py
+src/openbao_client/client.py
+src/openbao_client.egg-info/PKG-INFO
+src/openbao_client.egg-info/SOURCES.txt
+src/openbao_client.egg-info/dependency_links.txt
+src/openbao_client.egg-info/requires.txt
+src/openbao_client.egg-info/top_level.txt
+tests/test_client.py
